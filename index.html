@@ -9,27 +9,39 @@
 <body>
   <div class="main-app">
     <div class="sidebar-wrapper">
-      <a class="logo" href="#"><img src="./src/icons/logo.svg" alt="logo" class="logo"></a>
+      <a class="logo-link" href="#"><img src="./src/icons/logo.svg" alt="logo" class="logo-icon"></a>
       <div class="functions">
-        <img src="./src/icons/frame.svg" alt="table" class="table-icon"></img>
-        <img src="./src/icons/folder.svg" alt="folder" class="folder-icon"></img>
-        <img src="./src/icons/mail.svg" alt="email" class="email-icon"></img>
+        <div class="function frame active">
+          <a class="frame-link" href="#"><img src="./src/icons/frame.svg" alt="frame" class="frame-icon"></img></a>
+        </div>
+        <div class="function folder">
+          <a class="folder-link" href="#"><img src="./src/icons/folder.svg" alt="folder" class="folder-icon"></img></a>
+        </div>
+        <div class="function email">
+          <a class="email-link" href="#"><img src="./src/icons/mail.svg" alt="email" class="email-icon"></img></a>
+        </div>
+        
       </div>
     </div>
     <div class="main-wrapper">
-      <h1>Campaign</h1>
-      <table class="table">
-        <tr>
-          <th>ID</th>
-          <th>Name</th>
-          <th>Advertizer</th>
-          <th>description</th>
-          <th>Price<img src="./src/icons/sort.svg" alt="sort" class="sort-icon"></img></th>
-          <th>Start Time<img src="./src/icons/sort.svg" alt="sort" class="sort-icon"></img></th>
-          <th>End Time<img src="./src/icons/sort.svg" alt="sort" class="sort-icon"></img></th>
-          <th>Actions</th>
-        </tr>
-      </table>
+      <div class="main-content">
+        <h1>Campaign</h1>
+        <div class="table-wrapper">
+        <table class="table">
+          <tr>
+            <th><img src="./src/icons/checkbox.svg" alt="checkbox" class="checkbox-icon"></img></th>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Advertizer</th>
+            <th>description</th>
+            <th>Price <img src="./src/icons/sort.svg" alt="sort" class="sort-icon"></img></th>
+            <th>Start Time <img src="./src/icons/sort.svg" alt="sort" class="sort-icon"></img></th>
+            <th>End Time <img src="./src/icons/sort.svg" alt="sort" class="sort-icon"></img></th>
+            <th>Actions</th>
+          </tr>
+        </table>
+      </div>
+      </div>
     </div>
   </div>
   <script src="dist/bundle.js"></script>
