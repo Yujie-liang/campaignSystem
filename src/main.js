@@ -22,7 +22,7 @@ const navbar = document.querySelector('.functions');
             <td class="checkbox"><img src="./src/icons/checkbox.svg" alt="checkbox" class="checkbox-icon"></img></td>
             <td>${tableData[0].id}</td>
             <td>${tableData[0].name}</td>
-            <td>${tableData[0].advertiser}</td>
+            <td class="ad">${tableData[0].advertiser}</td>
             <td>${tableData[0].description}</td>
             <td>${tableData[0].price}</td>
             <td>${tableData[0].startTime}</td>
