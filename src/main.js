@@ -17,7 +17,7 @@ const navbar = document.querySelector('.functions');
 
 ;(function () {
     for(let i = 0; i < 25; i++){
-      table.innerHTML += `
+      table.lastElementChild.innerHTML += `
           <tr>
             <td class="checkbox"><img src="./src/icons/checkbox.svg" alt="checkbox" class="checkbox-icon"></img></td>
             <td>${tableData[0].id}</td>

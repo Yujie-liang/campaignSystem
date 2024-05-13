@@ -6,7 +6,7 @@
     <img src="https://img.shields.io/badge/Webpack-5.91.0-blue"/>
 </p>
 <p>
-A content management system (CMS), designed to manage multiple campaigns in a company. Developed with frontend languages, including HTML, Sass/Scss, and Javascript. `Webpack` technology was used to compile `Sass/Scss` into CSS. The main focus of the project is on the use of Sass/Scss and the building of interactive UI .
+A content management system (CMS), designed to manage multiple campaigns in a company. Developed with frontend languages, including HTML, Sass/Scss, and Javascript. `Webpack` technology was used to compile `Sass/Scss` into CSS. The main focus of the project is on the use of Sass/Scss and the building of interactive UI.
 </p>
 </div>
 
