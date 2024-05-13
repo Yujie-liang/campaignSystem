@@ -11,7 +11,7 @@ A content management system (CMS), designed to manage multiple campaigns in a co
 </div>
 
 ## Screenshots  
-<img src="https://i.imgur.com/l4IISGG.png" alt="campaign management system" width="600px">
+<img src="https://i.imgur.com/WyGYtzj.png" alt="campaign management system" width="600px">
 
 
 ## :star2: Features
