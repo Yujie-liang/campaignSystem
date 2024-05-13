@@ -11,7 +11,8 @@ A content management system (CMS), designed to manage multiple campaigns in a co
 </div>
 
 ## Screenshots
-<img src="https://i.imgur.com/LbttrM7.png" alt="campaign management system" width="600px">
+<img src="https://i.imgur.com/CbFRIgy.png" alt="campaign management system" width="600px">
+<img src="https://i.imgur.com/2ofxGBQ.png" alt="campaign management system-black mode" width="600px">
 
 
 ## :star2: Features
@@ -20,6 +21,7 @@ A content management system (CMS), designed to manage multiple campaigns in a co
 - Sidebar icons change color when clicked<br>
 - Click to select campaigns, and change background color for highlighting<br>
 - Click on actions icon to see more operational options.<br>
+- Click on the sidebar moon icon to change the theme into black mode.<br>
 
 ## :diamond_shape_with_a_dot_inside: Installation
 
