@@ -10,8 +10,8 @@ A content management system (CMS), designed to manage multiple campaigns in a co
 </p>
 </div>
 
-## Screenshots  
-<img src="https://i.imgur.com/WyGYtzj.png" alt="campaign management system" width="600px">
+## Screenshots
+<img src="https://i.imgur.com/LbttrM7.png" alt="campaign management system" width="600px">
 
 
 ## :star2: Features
@@ -67,5 +67,5 @@ npm run build
 
 ## 💎 References
 
-This project is an assignment in the course: 
+This project is an assignment in the course:
 Dev C4 Become a Software Engineer - Front-End Specialization by AlphaCamp. The specifications and the finished product screenshot were provided by AlphaCamp. The code was then structured and written by me based on the provided resource from scratch.

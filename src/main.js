@@ -50,7 +50,8 @@ const navbar = document.querySelector('.functions');
   })();
 
 navbar.addEventListener('click', (event) => {
-    if (event.target.closest('.function')) {
+    if (event.target.closest('.function') && !event.target.closest('.theme')) {
+        console.log(event.target);
         const actived = document.querySelector('.function.active');
         actived.classList.remove('active');
         event.target.closest('.function').classList.add('active');
@@ -70,3 +71,22 @@ table.addEventListener('click', (event) => {
         //console.log(event.target.closest('.checkbox').classList);
     }
 });
+
+// dark mode
+// target the switch element
+const darkModeToggle = document.querySelector('.theme');
+// toggle handler
+const darkModeToggleHandler = event => {
+  if (event.target.closest('[data-theme="dark"]')) {
+    document.documentElement.setAttribute("data-theme", "light");
+    document.querySelector('.theme-icon').src="./src/icons/darkmode-on.svg";
+    document.querySelector('.logo-icon').src="./src/icons/logo.svg";
+    console.log(event.target);
+  } else {
+    document.documentElement.setAttribute("data-theme", "dark");
+    document.querySelector('.theme-icon').src="./src/icons/darkmode-off.svg";
+    document.querySelector('.logo-icon').src="./src/icons/logo-dark.svg";
+  }
+};
+// bind the event
+darkModeToggle.addEventListener("click", darkModeToggleHandler);
