@@ -1,4 +1,4 @@
-# <div align='center'>:memo: Campaign Manageement System</div>
+# <div align='center'>:memo: Campaign Management System</div>
 
 <div align='center'>
 <p>
